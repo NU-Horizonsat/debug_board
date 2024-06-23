@@ -578,6 +578,22 @@
     [
       "9ba02813-5189-4482-9c9e-35a29bc7aded",
       "Root"
+    ],
+    [
+      "3b80f853-6f7e-43fb-bbcc-e9ff1b9e9a11",
+      "USB Host"
+    ],
+    [
+      "a1f58236-f563-4844-96e3-2599a4367871",
+      "USB Hub"
+    ],
+    [
+      "93ad8177-c387-48d0-8b2f-f375b7a94fff",
+      "JTAG FTDI"
+    ],
+    [
+      "9be90c78-f273-4c93-824d-2319a625d659",
+      "UART"
     ]
   ],
   "text_variables": {}
