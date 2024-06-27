@@ -2054,7 +2054,7 @@
 		)
 		(uuid "287ba41e-88f3-4fe8-819d-50ff393e23d8")
 	)
-	(global_label "DP_HOST"
+	(hierarchical_label "DP_H"
 		(shape input)
 		(at 52.07 44.45 0)
 		(fields_autoplaced yes)
@@ -2064,19 +2064,9 @@
 			)
 			(justify left)
 		)
-		(uuid "059fdee8-42f0-4712-a1f1-de0d15fdfdec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.4009 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a0822653-6f78-418a-887e-d6ffe93d7136")
 	)
-	(global_label "DN_HOST"
+	(hierarchical_label "DM_H"
 		(shape input)
 		(at 67.31 39.37 0)
 		(fields_autoplaced yes)
@@ -2086,19 +2076,9 @@
 			)
 			(justify left)
 		)
-		(uuid "738caf3a-da95-4344-9e6b-df7bab62af32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7014 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "b0a3e333-afdc-43aa-8b81-c2599d0ce293")
 	)
-	(global_label "VBUS"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 92.71 25.4 0)
 		(fields_autoplaced yes)
@@ -2108,17 +2088,7 @@
 			)
 			(justify left)
 		)
-		(uuid "77a73e39-3ec0-41f9-b5e9-3729048fb1c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5938 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "b24c9ab1-0730-4c10-8e5d-cf72b24b3245")
 	)
 	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")

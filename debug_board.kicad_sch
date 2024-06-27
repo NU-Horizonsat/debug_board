@@ -5,8 +5,58 @@
 	(uuid "9ba02813-5189-4482-9c9e-35a29bc7aded")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c959b77-6cb8-4a25-8614-8ba9b7ed0d39")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de8846f-0aab-4680-958e-1636b8a40b8e")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf3d8df-5b2b-4cf9-ac1e-a1fed867b985")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5c2fd2-a836-478c-a8c0-e2c3ac662c3e")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd5a820-eeed-4a03-956f-baf9ff40e382")
+	)
 	(sheet
-		(at 38.1 33.02)
+		(at 57.15 76.2)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +68,7 @@
 		)
 		(uuid "3b80f853-6f7e-43fb-bbcc-e9ff1b9e9a11")
 		(property "Sheetname" "USB Host"
-			(at 38.1 32.3084 0)
+			(at 57.15 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +77,44 @@
 			)
 		)
 		(property "Sheetfile" "host.kicad_sch"
-			(at 38.1 46.3046 0)
+			(at 57.15 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "VBUS" input
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55f7fe08-3d93-44c3-8937-6172c1322893")
+		)
+		(pin "DM_H" input
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ac7075c-ce64-4e87-b9ab-6c19076ac7db")
+		)
+		(pin "DP_H" input
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff2c4d12-95a0-4631-bf6a-a9e5dfc070ea")
 		)
 		(instances
 			(project "debug_board"
@@ -44,7 +125,7 @@
 		)
 	)
 	(sheet
-		(at 12.7 50.8)
+		(at 25.4 76.2)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +137,7 @@
 		)
 		(uuid "91878a69-aab9-40cd-8e36-3035ed8b91de")
 		(property "Sheetname" "Power"
-			(at 12.7 50.0884 0)
+			(at 25.4 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,12 +146,13 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 12.7 64.0846 0)
+			(at 25.4 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -82,7 +164,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 15.24)
+		(at 88.9 54.61)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -93,8 +175,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "93ad8177-c387-48d0-8b2f-f375b7a94fff")
-		(property "Sheetname" "JTAG FTDI"
-			(at 38.1 14.5284 0)
+		(property "Sheetname" "FTDI"
+			(at 88.9 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,13 +185,34 @@
 			)
 		)
 		(property "Sheetfile" "jtag.kicad_sch"
-			(at 38.1 28.5246 0)
+			(at 88.9 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "DM" bidirectional
+			(at 102.87 67.31 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1fd2a54-22b6-4b4b-b4b0-139cb118189b")
+		)
+		(pin "DP" bidirectional
+			(at 105.41 67.31 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "285f0dc8-3042-4bab-ba0a-5200a7d9fb1f")
 		)
 		(instances
 			(project "debug_board"
@@ -120,47 +223,8 @@
 		)
 	)
 	(sheet
-		(at 12.7 33.02)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9be90c78-f273-4c93-824d-2319a625d659")
-		(property "Sheetname" "UART"
-			(at 12.7 32.3084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "uart.kicad_sch"
-			(at 12.7 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "debug_board"
-				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 12.7 15.24)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
+		(at 88.9 71.12)
+		(size 25.4 22.86)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -170,7 +234,7 @@
 		)
 		(uuid "a1f58236-f563-4844-96e3-2599a4367871")
 		(property "Sheetname" "USB Hub"
-			(at 12.7 14.5284 0)
+			(at 88.9 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,18 +243,168 @@
 			)
 		)
 		(property "Sheetfile" "usb_hub.kicad_sch"
-			(at 12.7 28.5246 0)
+			(at 98.044 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "DM2" bidirectional
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb3482f2-ac29-4227-9edd-ddee2ad689e3")
+		)
+		(pin "DM1" bidirectional
+			(at 102.87 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6e60d5a-05ea-49bf-9a47-58e05ab0a5ec")
+		)
+		(pin "DP1" bidirectional
+			(at 105.41 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bddac603-26a2-4272-b82a-4fe5beda3996")
+		)
+		(pin "DP2" bidirectional
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38f10f37-a256-42aa-ad4d-15ef82a28496")
+		)
+		(pin "DP3" bidirectional
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67892747-bf21-4e8a-9682-80a1660ffb1d")
+		)
+		(pin "DM4" bidirectional
+			(at 102.87 93.98 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "147dae17-a62d-4e25-bba7-5fbf21462343")
+		)
+		(pin "DM3" bidirectional
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23c08e16-980b-42a9-be8c-f7ad275ee32c")
+		)
+		(pin "DP4" bidirectional
+			(at 105.41 93.98 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "020c94a0-26b7-4cb5-b480-144af9380c23")
+		)
+		(pin "VBUS" input
+			(at 88.9 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59712901-09db-4048-a1d5-f6404ffbc03e")
+		)
+		(pin "DP_H" input
+			(at 88.9 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9b2a1f0-b820-4016-b00c-e2ba0f4bb96e")
+		)
+		(pin "DN_H" input
+			(at 88.9 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce928e92-18d5-4dda-9178-1613ce8b17e9")
 		)
 		(instances
 			(project "debug_board"
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 49.53)
+		(size 12.7 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c341ef78-2e89-4134-9acd-82690de25dd5")
+		(property "Sheetname" "Connector"
+			(at 166.37 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 166.37 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "debug_board"
+				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded"
+					(page "7")
 				)
 			)
 		)

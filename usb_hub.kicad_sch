@@ -1848,17 +1848,6 @@
 		)
 		(uuid "cce79415-6802-4220-9196-ece16721232e")
 	)
-	(label "UART+"
-		(at 93.98 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1688c457-2a45-4cc4-97ba-ef0cdd995232")
-	)
 	(label "XIN"
 		(at 46.99 26.67 0)
 		(fields_autoplaced yes)
@@ -1869,39 +1858,6 @@
 			(justify left bottom)
 		)
 		(uuid "4223ffac-d950-4851-aaca-03dfb01ea790")
-	)
-	(label "JTAG-"
-		(at 93.98 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46fbf357-9278-45b4-a80c-7a2210014bcd")
-	)
-	(label "USB+"
-		(at 93.98 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a439bb8-1844-4d80-bd49-540921f7b9cf")
-	)
-	(label "MCU-"
-		(at 93.98 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79021e0d-f354-4703-8ec0-be2075dbc9ff")
 	)
 	(label "XOUT"
 		(at 46.99 36.83 0)
@@ -1936,17 +1892,6 @@
 		)
 		(uuid "a5734db9-5b7d-4c01-ae56-c5835dcd176a")
 	)
-	(label "UART-"
-		(at 93.98 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5c7d9bc-2f4e-4bf6-a08c-5353c138b04f")
-	)
 	(label "RESET_HUB"
 		(at 38.1 90.17 180)
 		(fields_autoplaced yes)
@@ -1958,40 +1903,84 @@
 		)
 		(uuid "c5d37092-23f5-4e0e-bf6a-8950f340b933")
 	)
-	(label "USB-"
-		(at 93.98 102.87 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "DM2"
+		(shape bidirectional)
+		(at 93.98 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "df343597-6984-4fcd-9f4f-53d1dcb8aaff")
+		(uuid "0b985b3d-f333-4ebd-893c-e8ad6f579b54")
 	)
-	(label "MCU+"
-		(at 93.98 118.11 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "DP1"
+		(shape bidirectional)
+		(at 93.98 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "e337ad3f-f3ef-42a0-8beb-fe3f6cb2e405")
+		(uuid "0d717935-077f-4d45-8cfc-bb1a9c6525ef")
 	)
-	(label "JTAG+"
+	(hierarchical_label "DP3"
+		(shape bidirectional)
+		(at 93.98 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e1f3fd9-2fe0-4ce6-9060-d64972d9d5d1")
+	)
+	(hierarchical_label "DM4"
+		(shape bidirectional)
+		(at 93.98 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3293b13e-d1c4-4ffb-831f-044b9d56211c")
+	)
+	(hierarchical_label "DM1"
+		(shape bidirectional)
+		(at 93.98 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58c4462c-1109-47db-b793-26ffbcdb9d65")
+	)
+	(hierarchical_label "DP2"
+		(shape bidirectional)
 		(at 93.98 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f71cee9b-19d8-42b9-8a08-c85dbf8bf0c3")
+		(uuid "5b19be9b-9615-4ef0-b469-74674aa7f362")
 	)
-	(global_label "DN_HOST"
+	(hierarchical_label "DM3"
+		(shape bidirectional)
+		(at 93.98 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "816cf351-0a57-410d-a8d3-d7ea2b947415")
+	)
+	(hierarchical_label "DN_H"
 		(shape input)
 		(at 38.1 82.55 180)
 		(fields_autoplaced yes)
@@ -2001,41 +1990,9 @@
 			)
 			(justify right)
 		)
-		(uuid "66efcf78-21aa-455d-90f6-7fb6d52998b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7086 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "8c1d2bf1-3a5a-4508-a3bd-74f4671b0705")
 	)
-	(global_label "DP_HOST"
-		(shape input)
-		(at 38.1 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aaacb586-80b4-4e52-b0b7-5f4debb7265f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 38.1 77.47 180)
 		(fields_autoplaced yes)
@@ -2045,17 +2002,30 @@
 			)
 			(justify right)
 		)
-		(uuid "ccd56d72-5f6c-46b5-82b7-c7312101998d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.2162 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "9bde7531-b82e-42eb-afdb-dd4ae24868c3")
+	)
+	(hierarchical_label "DP4"
+		(shape bidirectional)
+		(at 93.98 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "b7008175-c758-4708-9587-59416be9193a")
+	)
+	(hierarchical_label "DP_H"
+		(shape input)
+		(at 38.1 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0596035-eb94-4771-9720-066919ee4948")
 	)
 	(symbol
 		(lib_id "Interface_USB:USB2514B_Bi")
