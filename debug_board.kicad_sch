@@ -7,6 +7,56 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 114.3 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a8e473-a895-4406-a86e-4153ade296b7")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280a2ca9-a527-4629-b06e-3621b36c0026")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd1f551-ae23-4be7-9f99-3e08404efe1d")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2e8feb-4eaf-4fed-8abc-3ec29e492c55")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a29190e-fc52-47b8-85ad-0af605ba0fc5")
+	)
+	(wire
+		(pts
 			(xy 82.55 82.55) (xy 88.9 82.55)
 		)
 		(stroke
@@ -27,6 +77,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 46.99) (xy 121.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f82f8dc-ce98-4c2e-9315-a0a8bca2afe8")
+	)
+	(wire
+		(pts
 			(xy 105.41 67.31) (xy 105.41 71.12)
 		)
 		(stroke
@@ -34,6 +94,56 @@
 			(type default)
 		)
 		(uuid "5bf3d8df-5b2b-4cf9-ac1e-a1fed867b985")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea6fc01-5850-4436-b419-f37319eca90a")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 121.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779f80c6-4b13-4761-a8cd-241171876865")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02eaebb-3282-4fd4-81c3-2dbf769e262f")
+	)
+	(wire
+		(pts
+			(xy 114.3 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42e778b-54c3-48f9-bd3e-30ed76822889")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca11301a-fbb2-4b62-a721-013bb5153906")
 	)
 	(wire
 		(pts
@@ -164,8 +274,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 54.61)
-		(size 25.4 12.7)
+		(at 88.9 39.37)
+		(size 25.4 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -176,7 +286,7 @@
 		)
 		(uuid "93ad8177-c387-48d0-8b2f-f375b7a94fff")
 		(property "Sheetname" "FTDI"
-			(at 88.9 53.8984 0)
+			(at 88.1884 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +295,7 @@
 			)
 		)
 		(property "Sheetfile" "jtag.kicad_sch"
-			(at 88.9 67.8946 0)
+			(at 114.8846 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,6 +323,76 @@
 				(justify left)
 			)
 			(uuid "285f0dc8-3042-4bab-ba0a-5200a7d9fb1f")
+		)
+		(pin "SRST" input
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d8b30ce-e1e1-4e84-9114-4c059fdb4156")
+		)
+		(pin "TCK" input
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e53cd679-d12a-4c39-b107-ca0d17a4810d")
+		)
+		(pin "TMS" input
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "091e5331-0e5c-45b2-890b-60cd9ea6e72e")
+		)
+		(pin "TDO" input
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0736de4d-8d03-477e-b824-c7c1731af33a")
+		)
+		(pin "TDI" input
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e053151-67a1-4f7a-9244-98564030e147")
+		)
+		(pin "TXD" input
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edf4d4c4-10a8-4b12-8e38-010a053e66d0")
+		)
+		(pin "RXD" input
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "940a6a0e-7762-4758-b144-59a99a81528f")
 		)
 		(instances
 			(project "debug_board"
@@ -293,7 +473,7 @@
 			(uuid "38f10f37-a256-42aa-ad4d-15ef82a28496")
 		)
 		(pin "DP3" bidirectional
-			(at 114.3 87.63 0)
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +483,7 @@
 			(uuid "67892747-bf21-4e8a-9682-80a1660ffb1d")
 		)
 		(pin "DM4" bidirectional
-			(at 102.87 93.98 270)
+			(at 93.98 93.98 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,7 +493,7 @@
 			(uuid "147dae17-a62d-4e25-bba7-5fbf21462343")
 		)
 		(pin "DM3" bidirectional
-			(at 114.3 85.09 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +503,7 @@
 			(uuid "23c08e16-980b-42a9-be8c-f7ad275ee32c")
 		)
 		(pin "DP4" bidirectional
-			(at 105.41 93.98 270)
+			(at 96.52 93.98 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,8 +551,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 49.53)
-		(size 12.7 67.31)
+		(at 121.92 39.37)
+		(size 19.05 67.31)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -383,7 +563,7 @@
 		)
 		(uuid "c341ef78-2e89-4134-9acd-82690de25dd5")
 		(property "Sheetname" "Connector"
-			(at 166.37 48.8184 0)
+			(at 121.92 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +572,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 166.37 117.4246 0)
+			(at 121.92 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,6 +580,156 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "CANH" input
+			(at 134.62 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55d2d549-2baf-4fc7-bec9-4ca3f8084bca")
+		)
+		(pin "JSRST" input
+			(at 121.92 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07421cae-0708-489c-afc0-8368e4e7fb60")
+		)
+		(pin "CANL" input
+			(at 137.16 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3869bb4d-e089-41b2-8d78-8df3c41ed5ba")
+		)
+		(pin "USB+" input
+			(at 121.92 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d35f0f69-667b-4941-bde7-069439fcdeca")
+		)
+		(pin "USB-" input
+			(at 121.92 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57d6a29b-55d2-49da-80fd-09dbf0c2a342")
+		)
+		(pin "I2C_TX" input
+			(at 128.27 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b35480e9-cdd8-4b66-bf89-6a14651c3812")
+		)
+		(pin "I2C_RX" input
+			(at 125.73 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14473c9a-cfb0-4587-ba51-1c82a9a5e6d7")
+		)
+		(pin "JTDO" input
+			(at 121.92 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "323bb926-b5f5-404b-ac87-8e31df5d32e9")
+		)
+		(pin "JTCK" input
+			(at 121.92 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "498af430-5342-440d-905f-51e4569fd917")
+		)
+		(pin "JTDI" input
+			(at 121.92 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2899862-8272-4c75-82a0-60e31325d7db")
+		)
+		(pin "JTMS" input
+			(at 121.92 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ceb640c-add2-4ce3-b6a9-bd9a98d253ad")
+		)
+		(pin "UART_TX" input
+			(at 121.92 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f66b428c-2dcd-422a-95db-d47b50228977")
+		)
+		(pin "USB2+?" input
+			(at 121.92 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7bffcda-b4f0-45ae-ab43-548b5cf24dfc")
+		)
+		(pin "USB2-?" input
+			(at 121.92 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9eb8d918-9eef-4892-ba8c-efb36d4fa80f")
+		)
+		(pin "UART_RX" input
+			(at 121.92 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "625a2d37-a502-48a5-a337-53ef28138a50")
 		)
 		(instances
 			(project "debug_board"

@@ -1906,6 +1906,7 @@
 	(hierarchical_label "DM2"
 		(shape bidirectional)
 		(at 93.98 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1917,6 +1918,7 @@
 	(hierarchical_label "DP1"
 		(shape bidirectional)
 		(at 93.98 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1928,6 +1930,7 @@
 	(hierarchical_label "DP3"
 		(shape bidirectional)
 		(at 93.98 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1939,6 +1942,7 @@
 	(hierarchical_label "DM4"
 		(shape bidirectional)
 		(at 93.98 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1950,6 +1954,7 @@
 	(hierarchical_label "DM1"
 		(shape bidirectional)
 		(at 93.98 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,6 +1966,7 @@
 	(hierarchical_label "DP2"
 		(shape bidirectional)
 		(at 93.98 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,6 +1978,7 @@
 	(hierarchical_label "DM3"
 		(shape bidirectional)
 		(at 93.98 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,6 +2014,7 @@
 	(hierarchical_label "DP4"
 		(shape bidirectional)
 		(at 93.98 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
