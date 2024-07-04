@@ -1425,7 +1425,7 @@
 		)
 		(uuid "5ed9b992-b5a7-4c29-9768-a3519591212c")
 	)
-	(hierarchical_label "I2C_RX"
+	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 86.36 53.34 270)
 		(fields_autoplaced yes)
@@ -1497,7 +1497,7 @@
 		)
 		(uuid "d271564a-1b90-4dae-b1c5-6a05ecb28394")
 	)
-	(hierarchical_label "I2C_TX"
+	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 88.9 53.34 270)
 		(fields_autoplaced yes)

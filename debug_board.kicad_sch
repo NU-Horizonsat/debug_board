@@ -631,26 +631,6 @@
 			)
 			(uuid "57d6a29b-55d2-49da-80fd-09dbf0c2a342")
 		)
-		(pin "I2C_TX" input
-			(at 128.27 106.68 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b35480e9-cdd8-4b66-bf89-6a14651c3812")
-		)
-		(pin "I2C_RX" input
-			(at 125.73 106.68 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "14473c9a-cfb0-4587-ba51-1c82a9a5e6d7")
-		)
 		(pin "JTDO" input
 			(at 121.92 49.53 180)
 			(effects
@@ -730,6 +710,26 @@
 				(justify left)
 			)
 			(uuid "625a2d37-a502-48a5-a337-53ef28138a50")
+		)
+		(pin "I2C_SCL" input
+			(at 125.73 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7073020-6b5b-4fe6-bdb7-36a33d9eb1f0")
+		)
+		(pin "I2C_SDA" input
+			(at 128.27 106.68 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d301ac0-77f9-47c8-bba1-2634423ec3d8")
 		)
 		(instances
 			(project "debug_board"
