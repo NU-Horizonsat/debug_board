@@ -688,6 +688,10 @@
     [
       "c341ef78-2e89-4134-9acd-82690de25dd5",
       "Connector"
+    ],
+    [
+      "127488fc-9d28-4767-a43f-caab66c165b9",
+      "STM32"
     ]
   ],
   "text_variables": {}
