@@ -141,24 +141,23 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -166,7 +165,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -183,7 +182,177 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,12 +379,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -223,7 +441,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2680,10 +2898,6 @@
 		(at 260.35 128.27)
 		(uuid "37bf9a87-7331-41e2-8694-fb345ca34f32")
 	)
-	(no_connect
-		(at 267.97 93.98)
-		(uuid "6ab1b6ad-7e91-406a-b04a-302e24362fe5")
-	)
 	(wire
 		(pts
 			(xy 149.86 36.83) (xy 168.91 36.83)
@@ -2693,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "003b3733-f431-4195-aadd-75de7b069d92")
-	)
-	(wire
-		(pts
-			(xy 191.77 92.71) (xy 196.85 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029e4084-d439-49f7-b187-a7e93992333d")
 	)
 	(wire
 		(pts
@@ -3016,16 +3220,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 90.17) (xy 273.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f73d06c-7aca-431d-9615-54221dd7c999")
-	)
-	(wire
-		(pts
 			(xy 224.79 123.19) (xy 222.25 123.19)
 		)
 		(stroke
@@ -3033,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "6fde46b3-b1b7-4937-a7ce-1aff8eb5dfa7")
+	)
+	(wire
+		(pts
+			(xy 270.51 102.87) (xy 270.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715a0044-3b28-472c-bf72-e1ba7ebc76fe")
 	)
 	(wire
 		(pts
@@ -3053,6 +3257,16 @@
 			(type default)
 		)
 		(uuid "7d19071a-9027-45fe-8186-d3cc8a0efa6c")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e74f068-ba78-49db-829d-04cff657070c")
 	)
 	(wire
 		(pts
@@ -3123,6 +3337,16 @@
 			(type default)
 		)
 		(uuid "8db8c955-a950-4c98-900e-fcb247145488")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 218.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee0de18-4202-4b16-ac32-7cdbc727bb14")
 	)
 	(wire
 		(pts
@@ -3326,16 +3550,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 104.14) (xy 270.51 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce0181c-4bc9-4de6-84b2-6fff7f9abcbc")
-	)
-	(wire
-		(pts
 			(xy 142.24 45.72) (xy 142.24 48.26)
 		)
 		(stroke
@@ -3343,6 +3557,16 @@
 			(type default)
 		)
 		(uuid "ddcbb4c5-2c21-460f-9cf7-539b2ab8aadc")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 270.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defa539f-a2c9-44bc-b8dd-a835fe98eb89")
 	)
 	(wire
 		(pts
@@ -3466,7 +3690,7 @@
 	)
 	(text "Turn \"off\" CAN if not using:\nSHDNVIO has priority over STB \nSTB floating = normal mode \nSHDNVIO floating = normal mode \nSHDNVIO HI = low power mode"
 		(exclude_from_sim no)
-		(at 243.84 93.98 0)
+		(at 243.586 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3542,18 +3766,6 @@
 			(justify left)
 		)
 		(uuid "44285169-773b-494b-ae14-5675518bea70")
-	)
-	(hierarchical_label "USB_NOE"
-		(shape input)
-		(at 196.85 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "575edc24-9e76-432f-a479-b2c9b10db453")
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
@@ -4051,6 +4263,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "436459e2-5aa4-4e86-b80c-b867ee08ff7f")
+		(property "Reference" "D7"
+			(at 216.2175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 216.2175 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1fac036-f836-4f97-b636-e20dc173db21")
+		)
+		(pin "1"
+			(uuid "a5c31b4a-cd28-42a1-a284-03868bb2bcdd")
+		)
+		(instances
+			(project ""
+				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:TCAN3413DRBR")
 		(at 224.79 128.27 0)
 		(mirror x)
@@ -4194,6 +4474,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 218.44 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63db95b8-570e-4f48-b792-6c5cce6d73c0")
+		(property "Reference" "#PWR051"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94334fec-21cb-448b-8352-1a2c7e80feef")
+		)
+		(instances
+			(project "debug_board"
+				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 118.11 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4253,6 +4599,74 @@
 			(project "debug_board"
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b3d37e-56d9-4505-960f-5c2d9d523968")
+		(property "Reference" "R17"
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 207.01 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 206.756 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62d76d33-8614-458b-9a3b-f3105ba7ed49")
+		)
+		(pin "1"
+			(uuid "5e39949b-5321-4fdf-8307-ce759fa72d9b")
+		)
+		(instances
+			(project ""
+				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4392,71 +4806,6 @@
 			(project "debug_board"
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 273.05 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c4e87c9-d282-4d9a-9ea3-9f85a45e7409")
-		(property "Reference" "#PWR0110"
-			(at 273.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 274.32 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 273.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98e0f96f-035e-4dae-9a52-7f06c05bd29f")
-		)
-		(instances
-			(project "debug_board"
-				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 140.97 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5162,7 +5511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 66.548 90)
+			(at 141.224 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -5198,76 +5547,6 @@
 			(project "debug_board"
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 270.51 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df4ebd56-5cdd-4153-8bb7-db12fa14cb36")
-		(property "Reference" "SW5"
-			(at 279.4 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 279.4 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4b1e892-7063-4957-b717-c9aafb2b2aa1")
-		)
-		(pin "2"
-			(uuid "9c0eecb6-eca8-4deb-9fa7-38c52c8fba2c")
-		)
-		(pin "3"
-			(uuid "a8ba2c7c-ade9-4b02-87c4-4fc7e6b31df0")
-		)
-		(instances
-			(project "debug_board"
-				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/127488fc-9d28-4767-a43f-caab66c165b9"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 270.51 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5434,7 +5713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 268.732 113.03 90)
+			(at 271.526 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 270.51 113.03 0)
 			(effects
 				(font

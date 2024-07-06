@@ -7,6 +7,36 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 125.73 104.14) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7125a5-60d2-4b81-9347-c3d501154c1d")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1498598d-6de8-4587-9d18-03e96051ed6e")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21842b30-b331-42ce-b117-6303b12d5670")
+	)
+	(wire
+		(pts
 			(xy 114.3 81.28) (xy 121.92 81.28)
 		)
 		(stroke
@@ -44,6 +74,16 @@
 			(type default)
 		)
 		(uuid "2f2e8feb-4eaf-4fed-8abc-3ec29e492c55")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e938391-b907-4950-8ddc-9bb3a6eec2bc")
 	)
 	(wire
 		(pts
@@ -107,6 +147,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 115.57) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6594feec-8824-41f9-9dc4-bfeba3cf8b38")
+	)
+	(wire
+		(pts
 			(xy 114.3 41.91) (xy 121.92 41.91)
 		)
 		(stroke
@@ -124,6 +174,36 @@
 			(type default)
 		)
 		(uuid "a02eaebb-3282-4fd4-81c3-2dbf769e262f")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ce42f3-37e0-4740-8f29-1a009ce89f90")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a757dc11-5f07-403f-9fe6-0cbfd7ece306")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b022cd17-66f0-4317-ac99-8f74416d8b05")
 	)
 	(wire
 		(pts
@@ -147,6 +227,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 106.68) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7462f1e-e887-4c3c-a479-cd4225b70ab3")
+	)
+	(wire
+		(pts
 			(xy 82.55 78.74) (xy 88.9 78.74)
 		)
 		(stroke
@@ -165,10 +255,19 @@
 		)
 		(uuid "dcd5a820-eeed-4a03-956f-baf9ff40e382")
 	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0b7570-1297-4e7d-a7e2-6322fed63da0")
+	)
 	(sheet
-		(at 60.96 50.8)
-		(size 21.59 11.43)
-		(fields_autoplaced yes)
+		(at 88.9 99.06)
+		(size 25.4 19.05)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -178,7 +277,7 @@
 		)
 		(uuid "127488fc-9d28-4767-a43f-caab66c165b9")
 		(property "Sheetname" "STM32"
-			(at 60.96 50.0884 0)
+			(at 88.646 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,13 +286,74 @@
 			)
 		)
 		(property "Sheetfile" "STM32.kicad_sch"
-			(at 60.96 62.8146 0)
+			(at 88.9 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "I2C_SCL" input
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3276642d-f087-4deb-aa86-9e8743c90266")
+		)
+		(pin "USB+" input
+			(at 96.52 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0fd03ef6-6b60-419e-b283-528583d12793")
+		)
+		(pin "USB-" input
+			(at 93.98 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7bcbb420-d3c8-4b40-a488-f63914378d25")
+		)
+		(pin "I2C_SDA" input
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bedccdc9-c4eb-4db9-9849-fb45bb26b933")
+		)
+		(pin "CANL" bidirectional
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56121e95-771f-44fa-9b82-212ca9b6e752")
+		)
+		(pin "CANH" bidirectional
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4d3d9b2-add3-4f0f-a820-22e96fd05cf6")
 		)
 		(instances
 			(project "debug_board"
@@ -590,7 +750,7 @@
 	)
 	(sheet
 		(at 121.92 39.37)
-		(size 19.05 67.31)
+		(size 19.05 62.23)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -610,7 +770,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 121.92 107.2646 0)
+			(at 121.92 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +780,7 @@
 			)
 		)
 		(pin "CANH" input
-			(at 134.62 106.68 270)
+			(at 134.62 101.6 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +800,7 @@
 			(uuid "07421cae-0708-489c-afc0-8368e4e7fb60")
 		)
 		(pin "CANL" input
-			(at 137.16 106.68 270)
+			(at 137.16 101.6 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +910,7 @@
 			(uuid "625a2d37-a502-48a5-a337-53ef28138a50")
 		)
 		(pin "I2C_SCL" input
-			(at 125.73 106.68 270)
+			(at 125.73 101.6 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +920,7 @@
 			(uuid "c7073020-6b5b-4fe6-bdb7-36a33d9eb1f0")
 		)
 		(pin "I2C_SDA" input
-			(at 128.27 106.68 270)
+			(at 128.27 101.6 270)
 			(effects
 				(font
 					(size 1.27 1.27)
