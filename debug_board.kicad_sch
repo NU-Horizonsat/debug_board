@@ -474,7 +474,6 @@
 	(sheet
 		(at 88.9 39.37)
 		(size 25.4 27.94)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -484,7 +483,7 @@
 		)
 		(uuid "93ad8177-c387-48d0-8b2f-f375b7a94fff")
 		(property "Sheetname" "FTDI"
-			(at 88.1884 67.31 90)
+			(at 88.9 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)

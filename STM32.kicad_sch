@@ -2910,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 64.77) (xy 137.16 64.77)
+			(xy 133.35 64.77) (xy 137.16 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 62.23) (xy 121.92 62.23)
+			(xy 118.11 62.23) (xy 123.19 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 132.08 59.69)
+			(xy 134.62 59.69) (xy 132.08 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 67.31) (xy 121.92 67.31)
+			(xy 118.11 67.31) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3620,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 59.69) (xy 152.4 59.69)
+			(xy 144.78 59.69) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3872,6 +3872,7 @@
 		)
 		(pin "A3"
 			(uuid "f9a58d23-57d0-47b9-b090-12809d9f461f")
+			(alternate "CAN_TX")
 		)
 		(pin "F3"
 			(uuid "d9a4d3b8-b1bd-4b63-8332-60761ae92479")
@@ -3893,6 +3894,7 @@
 		)
 		(pin "C3"
 			(uuid "f0ee8af2-382b-4e36-9972-de70bae62376")
+			(alternate "I2C1_SDA")
 		)
 		(pin "G6"
 			(uuid "1717d7a2-a3bd-47b5-853f-2a361b1615f2")
@@ -3932,12 +3934,14 @@
 		)
 		(pin "B8"
 			(uuid "5d34eca2-8166-472f-a40e-bbd8cd5b13e1")
+			(alternate "USB_DP")
 		)
 		(pin "C2"
 			(uuid "93210456-84d1-4e8e-a90e-10f9cccc3f4d")
 		)
 		(pin "A8"
 			(uuid "132f32e5-1b7e-4ceb-9897-2b883897df73")
+			(alternate "USB_NOE")
 		)
 		(pin "C4"
 			(uuid "4268599e-ee8a-408d-8665-9e7dd0757e0e")
@@ -3962,12 +3966,14 @@
 		)
 		(pin "C8"
 			(uuid "359d94b8-03a5-4818-bbd0-ed640a51c1c3")
+			(alternate "USB_DM")
 		)
 		(pin "C7"
 			(uuid "eef1c25c-fa68-4474-903d-21db66d8b07c")
 		)
 		(pin "D3"
 			(uuid "8112bd5b-6e00-404f-959b-db11bbd01d80")
+			(alternate "I2C1_SCL")
 		)
 		(pin "E1"
 			(uuid "75aec122-0cdf-4bb5-b956-8d3d55ad7d7e")
@@ -4022,6 +4028,7 @@
 		)
 		(pin "B3"
 			(uuid "6d333099-00a7-4a64-a866-6d1eb350bdf8")
+			(alternate "CAN_RX")
 		)
 		(pin "A2"
 			(uuid "a87fac06-62e6-4f18-a215-0ac254edcd60")
@@ -4086,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 45.72 0)
 			(effects
 				(font
@@ -4130,7 +4137,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 140.97 59.69 0)
+		(at 139.7 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4139,7 +4146,7 @@
 		(fields_autoplaced yes)
 		(uuid "3167f7c9-52d7-437d-b9a4-04266c91941a")
 		(property "Reference" "SW4"
-			(at 140.97 52.07 0)
+			(at 139.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,15 +4154,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 140.97 54.61 0)
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 54.61 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 54.61 0)
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 140.97 59.69 0)
+			(at 139.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 214.63 92.71 0)
 			(effects
 				(font
@@ -4630,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.756 93.726 90)
 			(effects
 				(font
@@ -4674,7 +4681,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 127 64.77 180)
+		(at 128.27 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4682,7 +4689,7 @@
 		(dnp no)
 		(uuid "7fc0aa88-7f92-4e32-9f78-623320cec0b2")
 		(property "Reference" "SW3"
-			(at 127 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,15 +4697,15 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 127 71.12 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 64.77 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 57.15 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4723,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 127 64.77 0)
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 45.72 0)
 			(effects
 				(font
@@ -4903,7 +4910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 45.72 0)
 			(effects
 				(font
@@ -5039,7 +5046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 57.15 0)
 			(effects
 				(font
@@ -5108,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 45.72 0)
 			(effects
 				(font
@@ -5376,7 +5383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.2052 45.72 0)
 			(effects
 				(font
@@ -5510,7 +5517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.224 63.754 90)
 			(effects
 				(font
@@ -5645,7 +5652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.5852 45.72 0)
 			(effects
 				(font
@@ -5712,7 +5719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 271.526 113.284 90)
 			(effects
 				(font
@@ -5781,7 +5788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 45.72 0)
 			(effects
 				(font

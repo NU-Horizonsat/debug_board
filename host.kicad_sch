@@ -929,152 +929,6 @@
 				)
 			)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1813,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 60.96 33.02)
+			(xy 67.31 31.75) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1863,6 +1717,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 25.4) (xy 87.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3860ec8d-40eb-4d6a-9c2f-b420d896168e")
+	)
+	(wire
+		(pts
 			(xy 41.91 39.37) (xy 66.04 39.37)
 		)
 		(stroke
@@ -1870,16 +1734,6 @@
 			(type default)
 		)
 		(uuid "59209caa-b925-4d64-81c3-a735e2072c0c")
-	)
-	(wire
-		(pts
-			(xy 49.53 25.4) (xy 87.63 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7500dbca-2cf6-46bd-a145-64dbaa91915f")
 	)
 	(wire
 		(pts
@@ -1913,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 39.37) (xy 67.31 39.37)
+			(xy 66.04 39.37) (xy 71.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 58.42 31.75)
+			(xy 67.31 31.75) (xy 58.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2068,7 +1922,7 @@
 	)
 	(hierarchical_label "DM_H"
 		(shape input)
-		(at 67.31 39.37 0)
+		(at 71.12 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2231,25 +2085,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 45.72 25.4 90)
+		(lib_id "power:GND")
+		(at 67.31 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f4027fb-6921-43c7-8f22-356b8f691466")
-		(property "Reference" "F1"
-			(at 45.72 19.05 90)
+		(uuid "6c6df9e7-99c0-45e7-95ff-6feb67e5b492")
+		(property "Reference" "#PWR02"
+			(at 67.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Polyfuse"
-			(at 45.72 21.59 90)
+		(property "Value" "GND"
+			(at 67.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,17 +2112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 25.4 0)
+			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,8 +2120,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 45.72 25.4 0)
+		(property "Datasheet" ""
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,15 +2139,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "136c0a86-1eee-457c-9b08-939306b95f5c")
-		)
-		(pin "2"
-			(uuid "4d926deb-151e-419b-bbd2-b0fea9094fa7")
+			(uuid "92090910-ec11-47ab-8f40-b2c6bc925bb1")
 		)
 		(instances
-			(project "debug_board"
+			(project ""
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/3b80f853-6f7e-43fb-bbcc-e9ff1b9e9a11"
-					(reference "F1")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -2461,7 +2312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 32.004 90)
 			(effects
 				(font
@@ -2504,72 +2355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcf61915-3d3d-439e-a65d-03503084a77a")
-		(property "Reference" "#PWR02"
-			(at 60.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be106d8c-94d2-45b4-ae9a-51fe4025ad6c")
-		)
-		(instances
-			(project "debug_board"
-				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/3b80f853-6f7e-43fb-bbcc-e9ff1b9e9a11"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 54.61 30.48 90)
 		(unit 1)
@@ -2594,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 29.464 90)
 			(effects
 				(font
