@@ -463,6 +463,26 @@
 				(hide yes)
 			)
 		)
+		(pin "HPI_SCL" input
+			(at 35.56 88.9 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b33db533-f4cd-4f1f-8c4f-12997e4ef221")
+		)
+		(pin "HPI_SDA" input
+			(at 39.37 88.9 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8edf5067-a579-46db-9ad3-429dbdcb0918")
+		)
 		(instances
 			(project "debug_board"
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded"

@@ -4641,8 +4641,20 @@
 		(uuid "49ee0e42-c330-4df8-aa7f-417ab42cf16b")
 	)
 	(no_connect
+		(at 58.42 78.74)
+		(uuid "599690e8-9ad5-4056-bbd0-a3ea9dbcfc8a")
+	)
+	(no_connect
 		(at 83.82 99.06)
 		(uuid "7b4d1174-65f3-4cc1-809b-8ea069b6b09c")
+	)
+	(no_connect
+		(at 25.4 252.73)
+		(uuid "8e76b84f-81a2-4d0b-896e-10d36f565702")
+	)
+	(no_connect
+		(at 73.66 99.06)
+		(uuid "b9a43066-8cdb-45a2-bf29-2668d85e95d5")
 	)
 	(no_connect
 		(at 58.42 71.12)
@@ -4659,6 +4671,10 @@
 	(no_connect
 		(at 124.46 140.97)
 		(uuid "db7590cd-32e2-418c-a36f-0651041bdb23")
+	)
+	(no_connect
+		(at 35.56 259.08)
+		(uuid "dcc8fa48-7396-462f-9e88-0f6d26f0a7c4")
 	)
 	(no_connect
 		(at 58.42 68.58)
@@ -7042,30 +7058,6 @@
 			(justify right bottom)
 		)
 		(uuid "f6065bd0-c2f4-4976-9a4c-d158c0e993bb")
-	)
-	(hierarchical_label "HPI_SCL"
-		(shape input)
-		(at 58.42 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b9b51d2-8a95-41c5-9570-a8322b60a37c")
-	)
-	(hierarchical_label "HPI_SDA"
-		(shape input)
-		(at 73.66 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f555b257-e86c-4df2-a80b-654c39ca0566")
 	)
 	(symbol
 		(lib_id "power:GND")

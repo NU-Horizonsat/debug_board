@@ -1196,13 +1196,12 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:ABLS-24.000MHZ-B4-T"
-			(pin_names hide)
+		(symbol "SamacSys_Parts:ABM3B-24.000MHZ-B2-T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 8.89 6.35 0)
+				(at 29.21 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1210,8 +1209,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "ABLS-24.000MHZ-B4-T"
-				(at 8.89 3.81 0)
+			(property "Value" "ABM3B-24.000MHZ-B2-T"
+				(at 29.21 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1219,18 +1218,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ABLS24000MHZB4T"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://abracon.com/Resonators/abls.pdf"
-				(at 8.89 -196.19 0)
+			(property "Footprint" "ABM3B"
+				(at 29.21 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1239,7 +1228,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CRYSTAL 24.0000MHZ 18PF SMD 24 MHz +/-30ppm Crystal 18pF 40 Ohms HC-49/US"
+			(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "24 MHz +/-20ppm Crystal 18pF 50 Ohms 4-SMD, No Lead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1248,8 +1247,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4.2"
-				(at 8.89 -396.19 0)
+			(property "Height" "1.1"
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1258,8 +1257,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "815-ABLS-24.0M-T"
-				(at 8.89 -496.19 0)
+			(property "Mouser Part Number" "815-ABM3B-24-B2"
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1268,8 +1267,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-24.000MHZ-B4-T?qs=yTU0IcKoRlFmg5ISZhZAjw%3D%3D"
-				(at 8.89 -596.19 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-24.000MHZ-B2-T?qs=H8AWquzS%2FlNTLKzCHT%2FO5A%3D%3D"
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1279,7 +1278,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "ABRACON"
-				(at 8.89 -696.19 0)
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1288,8 +1287,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ABLS-24.000MHZ-B4-T"
-				(at 8.89 -796.19 0)
+			(property "Manufacturer_Part_Number" "ABM3B-24.000MHZ-B2-T"
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1298,58 +1297,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ABLS-24.000MHZ-B4-T_1_1"
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 2.54) (xy 3.048 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "ABM3B-24.000MHZ-B2-T_1_1"
 				(rectangle
-					(start 4.064 3.556)
-					(end 6.096 -3.556)
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1359,9 +1310,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "XTAL_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1377,9 +1328,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "GND_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1387,6 +1338,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "XTAL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1614,12 +1601,6 @@
 		)
 	)
 	(junction
-		(at 25.4 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "070de189-93b9-41a3-a46d-59daa1a999b3")
-	)
-	(junction
 		(at 100.33 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1632,10 +1613,22 @@
 		(uuid "12ba96da-db9c-4d96-84ec-5d5665c8c243")
 	)
 	(junction
+		(at 17.78 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13888ae6-b8a9-449a-bd1f-c076d0f8bbd5")
+	)
+	(junction
 		(at 91.44 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22bc795f-cb27-4654-8ed2-8701404950df")
+	)
+	(junction
+		(at 43.18 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3622d09a-8d8a-4767-af15-d3a44d0f6f19")
 	)
 	(junction
 		(at 109.22 144.78)
@@ -1656,16 +1649,16 @@
 		(uuid "5880dd84-97e7-4f09-b525-6f05c053011d")
 	)
 	(junction
+		(at 17.78 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2920b4-f59c-4aec-9c84-5a2cfda8cd6c")
+	)
+	(junction
 		(at 82.55 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c92b63a-6c67-4dcd-9539-25f9ea68b654")
-	)
-	(junction
-		(at 34.29 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68347db0-60aa-4fe2-906a-4fc19a652419")
 	)
 	(junction
 		(at 91.44 152.4)
@@ -1686,22 +1679,28 @@
 		(uuid "70dcd252-2f5b-4d39-9045-fae15bd6da57")
 	)
 	(junction
+		(at 76.2 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dbf190-da9f-440b-8e61-a87b0f027aa0")
+	)
+	(junction
 		(at 63.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4672855-38f7-444b-9ae3-5fa3e0bc0f5f")
 	)
 	(junction
-		(at 34.29 36.83)
+		(at 38.1 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5b956b1-7dee-432d-baf2-13eb176b42b9")
+		(uuid "dba8d806-25ea-4593-9444-61744ccd24f1")
 	)
 	(junction
-		(at 17.78 36.83)
+		(at 25.4 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0f7c783-3b99-4bac-8e9c-c0521605dc79")
+		(uuid "f366c52a-13a4-4dbe-af09-1ebdba686e8d")
 	)
 	(junction
 		(at 72.39 152.4)
@@ -1795,26 +1794,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 35.56) (xy 25.4 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09d49216-f129-4879-b96f-6dd332c2abf4")
-	)
-	(wire
-		(pts
-			(xy 25.4 26.67) (xy 34.29 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbe3c53-0263-4844-a751-8943dca10ed5")
-	)
-	(wire
-		(pts
 			(xy 82.55 152.4) (xy 72.39 152.4)
 		)
 		(stroke
@@ -1882,16 +1861,6 @@
 			(type solid)
 		)
 		(uuid "2c7faecf-a8fd-4fc8-b9e9-087a46c4810c")
-	)
-	(wire
-		(pts
-			(xy 25.4 36.83) (xy 34.29 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42209f5f-55a3-4b07-bff4-35bac1853a64")
 	)
 	(wire
 		(pts
@@ -1965,6 +1934,36 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 34.29) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6929807e-ea48-46d0-b874-eeee24d94989")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 25.4 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e357ccc-87b0-4f12-86b4-aca061aee4da")
+	)
+	(wire
+		(pts
+			(xy 38.1 41.91) (xy 17.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84013919-1922-4fff-8164-530ad33f52f1")
+	)
+	(wire
+		(pts
 			(xy 71.12 62.23) (xy 73.66 62.23)
 		)
 		(stroke
@@ -1972,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "8503f102-062f-4369-91b8-bda7790d51cf")
+	)
+	(wire
+		(pts
+			(xy 43.18 39.37) (xy 83.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8769d147-4e7d-44aa-9001-08f89c8c5286")
 	)
 	(wire
 		(pts
@@ -1985,7 +1994,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 26.67) (xy 46.99 26.67)
+			(xy 43.18 31.75) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9598faf0-6143-4fcb-9596-035139d2db51")
+	)
+	(wire
+		(pts
+			(xy 25.4 26.67) (xy 76.2 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2005,6 +2024,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 26.67) (xy 83.82 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13cd832-d985-43b2-a60d-f149f1609fa4")
+	)
+	(wire
+		(pts
 			(xy 33.02 140.97) (xy 33.02 144.145)
 		)
 		(stroke
@@ -2012,6 +2041,16 @@
 			(type solid)
 		)
 		(uuid "a44360ff-17bf-48cf-b116-ca53995cccf9")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa453733-b70e-43ec-9527-b9e5ae0c665d")
 	)
 	(wire
 		(pts
@@ -2025,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 26.67) (xy 25.4 27.94)
+			(xy 25.4 26.67) (xy 25.4 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2075,16 +2114,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 17.78 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b52a6b-fe21-49e7-b9aa-e3cd9567081b")
-	)
-	(wire
-		(pts
 			(xy 100.33 152.4) (xy 109.22 152.4)
 		)
 		(stroke
@@ -2105,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 34.29) (xy 43.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2d6295-eb8f-4433-92f5-86f408cdbceb")
+	)
+	(wire
+		(pts
 			(xy 58.42 62.23) (xy 60.96 62.23)
 		)
 		(stroke
@@ -2115,13 +2154,43 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 36.83) (xy 17.78 39.37)
+			(xy 17.78 26.67) (xy 17.78 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d35c530f-f2af-4a53-b957-2b450cee251b")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf7662a-d417-45bb-b7ac-75c20adf06dd")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6799075-8b47-4997-877d-4b8b6a8c5190")
+	)
+	(wire
+		(pts
+			(xy 17.78 41.91) (xy 17.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea106232-8b3c-4eaf-a5a1-a949ec71aed6")
 	)
 	(wire
 		(pts
@@ -2135,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 36.83) (xy 46.99 36.83)
+			(xy 25.4 39.37) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2214,7 @@
 	)
 	(rectangle
 		(start 13.97 16.51)
-		(end 66.04 46.99)
+		(end 95.25 46.99)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2188,7 +2257,7 @@
 		(uuid "cce79415-6802-4220-9196-ece16721232e")
 	)
 	(label "XIN"
-		(at 46.99 26.67 0)
+		(at 83.82 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2199,7 +2268,7 @@
 		(uuid "4223ffac-d950-4851-aaca-03dfb01ea790")
 	)
 	(label "XOUT"
-		(at 46.99 36.83 0)
+		(at 83.82 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2674,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 21.59 36.83 90)
+		(at 21.59 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2613,14 +2682,6 @@
 		(dnp no)
 		(uuid "11ace3d1-5e80-4390-a3a3-3decd27f5f41")
 		(property "Reference" "C2"
-			(at 21.59 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27pF"
 			(at 21.59 32.766 90)
 			(effects
 				(font
@@ -2628,8 +2689,16 @@
 				)
 			)
 		)
+		(property "Value" "27pF"
+			(at 21.59 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 25.4 35.8648 0)
+			(at 25.4 38.4048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 36.83 0)
+			(at 21.59 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2716,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 21.59 36.83 0)
+			(at 21.59 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 39.37 0)
+		(at 17.78 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2750,7 +2819,7 @@
 		(fields_autoplaced yes)
 		(uuid "2188e3a4-1aba-4eda-adac-2b5a27a0b2ac")
 		(property "Reference" "#PWR06"
-			(at 17.78 45.72 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 44.45 0)
+			(at 17.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 39.37 0)
+			(at 17.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 39.37 0)
+			(at 17.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 39.37 0)
+			(at 17.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,45 +3885,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:ABLS-24.000MHZ-B4-T")
-		(at 34.29 36.83 90)
+		(lib_id "SamacSys_Parts:ABM3B-24.000MHZ-B2-T")
+		(at 43.18 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbc9d857-167b-467d-8b28-a149d8165a80")
-		(property "Reference" "Y1"
-			(at 39.37 30.4799 90)
+		(uuid "e38078b3-8d46-49c0-b57c-8eb7c6b804bc")
+		(property "Reference" "Y3"
+			(at 59.69 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "ABLS-24.000MHZ-B4-T"
-			(at 39.37 33.0199 90)
+		(property "Value" "ABM3B-24.000MHZ-B2-T"
+			(at 59.69 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "ABLS24000MHZB4T"
-			(at 130.48 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/abls.pdf"
-			(at 230.48 27.94 0)
+		(property "Footprint" "ABM3B"
+			(at 72.39 126.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,17 +3920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 24.0000MHZ 18PF SMD 24 MHz +/-30ppm Crystal 18pF 40 Ohms HC-49/US"
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.2"
-			(at 430.48 27.94 0)
+		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+			(at 72.39 226.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,8 +3930,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "815-ABLS-24.0M-T"
-			(at 530.48 27.94 0)
+		(property "Description" "24 MHz +/-20ppm Crystal 18pF 50 Ohms 4-SMD, No Lead"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 72.39 426.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,8 +3949,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-24.000MHZ-B4-T?qs=yTU0IcKoRlFmg5ISZhZAjw%3D%3D"
-			(at 630.48 27.94 0)
+		(property "Mouser Part Number" "815-ABM3B-24-B2"
+			(at 72.39 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-24.000MHZ-B2-T?qs=H8AWquzS%2FlNTLKzCHT%2FO5A%3D%3D"
+			(at 72.39 626.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3970,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ABRACON"
-			(at 730.48 27.94 0)
+			(at 72.39 726.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,8 +3979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ABLS-24.000MHZ-B4-T"
-			(at 830.48 27.94 0)
+		(property "Manufacturer_Part_Number" "ABM3B-24.000MHZ-B2-T"
+			(at 72.39 826.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,16 +3989,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f6b8f4da-7959-4c01-aac2-90a16858590e")
+		(pin "4"
+			(uuid "96d09294-f4a9-4e39-906a-813138297031")
 		)
 		(pin "2"
-			(uuid "7eb0627d-62cb-422c-a0b0-e02000a1c590")
+			(uuid "67ccf595-ffef-48fc-b3ba-338e6bb3468b")
+		)
+		(pin "3"
+			(uuid "97553392-3cb8-4339-9ca4-741e3579f72d")
+		)
+		(pin "1"
+			(uuid "01b17643-e88b-4519-8d6e-514f8596f150")
 		)
 		(instances
-			(project "debug_board"
+			(project ""
 				(path "/9ba02813-5189-4482-9c9e-35a29bc7aded/a1f58236-f563-4844-96e3-2599a4367871"
-					(reference "Y1")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -3939,7 +4012,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 25.4 31.75 0)
+		(at 25.4 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3947,7 +4020,7 @@
 		(dnp no)
 		(uuid "ed434ecf-24e8-425f-9e7d-7f728fff702b")
 		(property "Reference" "R5"
-			(at 27.94 30.4799 0)
+			(at 27.94 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +4029,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 27.686 33.02 0)
+			(at 27.686 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4038,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 26.416 32.004 90)
+			(at 26.416 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 31.75 0)
+			(at 25.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4056,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 25.4 31.75 0)
+			(at 25.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
