@@ -541,27 +541,7 @@
 			)
 			(uuid "285f0dc8-3042-4bab-ba0a-5200a7d9fb1f")
 		)
-		(pin "SRST" input
-			(at 114.3 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6d8b30ce-e1e1-4e84-9114-4c059fdb4156")
-		)
-		(pin "TCK" input
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e53cd679-d12a-4c39-b107-ca0d17a4810d")
-		)
-		(pin "TMS" input
+		(pin "TMS_TRGT" input
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -569,19 +549,19 @@
 				)
 				(justify right)
 			)
-			(uuid "091e5331-0e5c-45b2-890b-60cd9ea6e72e")
+			(uuid "7dbfa3c8-1e20-4999-86ee-21c68af290e7")
 		)
-		(pin "TDO" input
-			(at 114.3 49.53 0)
+		(pin "SRST_TRGT" input
+			(at 114.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0736de4d-8d03-477e-b824-c7c1731af33a")
+			(uuid "8e44ba8c-4ba8-49c4-b082-e74cbba88c20")
 		)
-		(pin "TDI" input
+		(pin "TDI_TRGT" input
 			(at 114.3 52.07 0)
 			(effects
 				(font
@@ -589,9 +569,19 @@
 				)
 				(justify right)
 			)
-			(uuid "6e053151-67a1-4f7a-9244-98564030e147")
+			(uuid "6490ec40-0e85-43b4-9f53-8a7b79f0420e")
 		)
-		(pin "TXD" input
+		(pin "TDO_TRGT" input
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0181d3ad-6426-49e6-a8ed-f2bea0fd70ad")
+		)
+		(pin "TXD_TRGT" input
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -599,9 +589,19 @@
 				)
 				(justify right)
 			)
-			(uuid "edf4d4c4-10a8-4b12-8e38-010a053e66d0")
+			(uuid "8724d041-ae02-460d-80b3-ae0934dcdc68")
 		)
-		(pin "RXD" input
+		(pin "TCK_TRGT" input
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87c68f4d-815d-4aec-862c-18e4f1e9e765")
+		)
+		(pin "RXD_TRGT" input
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -609,7 +609,7 @@
 				)
 				(justify right)
 			)
-			(uuid "940a6a0e-7762-4758-b144-59a99a81528f")
+			(uuid "2be6c980-7481-4a44-a6e5-67671fdb2790")
 		)
 		(instances
 			(project "debug_board"

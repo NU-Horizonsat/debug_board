@@ -514,6 +514,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC_IN0" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
@@ -677,6 +678,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC_IN4" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP2_INM" bidirectional line)
@@ -704,6 +706,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC_IN5" bidirectional line)
 					(alternate "CEC" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
@@ -806,6 +809,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC_IN15" bidirectional line)
 					(alternate "SYS_WKUP5" bidirectional line)
 					(alternate "TSC_G3_IO1" bidirectional line)
@@ -876,6 +880,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "TSC_G3_IO4" bidirectional line)
 				)
 				(pin bidirectional line
@@ -895,6 +900,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "CEC" bidirectional line)
 					(alternate "I2C2_SCL" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
@@ -1470,6 +1476,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "USART3_CK" bidirectional line)
 					(alternate "USART4_CK" bidirectional line)
 				)
@@ -1644,6 +1651,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 17.78 -20.32 180)
@@ -1662,6 +1670,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "CAN_RX" bidirectional line)
 					(alternate "CEC" bidirectional line)
 					(alternate "I2C1_SCL" bidirectional line)
@@ -3903,10 +3912,10 @@
 		)
 		(pin "14"
 			(uuid "f9a58d23-57d0-47b9-b090-12809d9f461f")
-			(alternate "CAN_TX")
 		)
 		(pin "62"
 			(uuid "d9a4d3b8-b1bd-4b63-8332-60761ae92479")
+			(alternate "CAN_TX")
 		)
 		(pin "57"
 			(uuid "e3e304eb-e9c0-416d-ab1e-f6be55693138")
@@ -3926,20 +3935,21 @@
 		)
 		(pin "61"
 			(uuid "f0ee8af2-382b-4e36-9972-de70bae62376")
-			(alternate "I2C1_SDA")
+			(alternate "CAN_RX")
 		)
 		(pin "10"
 			(uuid "1717d7a2-a3bd-47b5-853f-2a361b1615f2")
 		)
 		(pin "25"
 			(uuid "3e6eec25-bd8e-4638-9657-478aa4c9a785")
-			(alternate "I2C2_SCL")
+			(alternate "PC5")
 		)
 		(pin "33"
 			(uuid "e9f1d371-d1b0-4b3b-b4de-4714916c9f0c")
 		)
 		(pin "59"
 			(uuid "1fa276c7-2b2a-46db-a6c1-a93dc4c10191")
+			(alternate "I2C1_SDA")
 		)
 		(pin "26"
 			(uuid "e56c646d-1e4f-45eb-aed5-ee010d580fa8")
@@ -3964,17 +3974,19 @@
 		)
 		(pin "45"
 			(uuid "0e7da15b-0816-41ab-8fe1-c12a4a93ae6b")
+			(alternate "USB_DP")
 		)
 		(pin "28"
 			(uuid "5d34eca2-8166-472f-a40e-bbd8cd5b13e1")
-			(alternate "USB_DP")
+			(alternate "PB2")
 		)
 		(pin "58"
 			(uuid "93210456-84d1-4e8e-a90e-10f9cccc3f4d")
+			(alternate "I2C1_SCL")
 		)
 		(pin "21"
 			(uuid "132f32e5-1b7e-4ceb-9897-2b883897df73")
-			(alternate "USB_NOE")
+			(alternate "PA5")
 		)
 		(pin "36"
 			(uuid "4268599e-ee8a-408d-8665-9e7dd0757e0e")
@@ -3999,14 +4011,14 @@
 		)
 		(pin "29"
 			(uuid "359d94b8-03a5-4818-bbd0-ed640a51c1c3")
-			(alternate "USB_DM")
+			(alternate "PB10")
 		)
 		(pin "19"
 			(uuid "eef1c25c-fa68-4474-903d-21db66d8b07c")
 		)
 		(pin "53"
 			(uuid "8112bd5b-6e00-404f-959b-db11bbd01d80")
-			(alternate "I2C1_SCL")
+			(alternate "PC12")
 		)
 		(pin "54"
 			(uuid "75aec122-0cdf-4bb5-b956-8d3d55ad7d7e")
@@ -4022,6 +4034,7 @@
 		)
 		(pin "44"
 			(uuid "493ae6e8-0a76-4a11-bdc8-f3980f5077b6")
+			(alternate "USB_DM")
 		)
 		(pin "17"
 			(uuid "92996b31-f4cd-4e26-9b3d-4a817feabbcb")
@@ -4061,7 +4074,7 @@
 		)
 		(pin "20"
 			(uuid "6d333099-00a7-4a64-a866-6d1eb350bdf8")
-			(alternate "CAN_RX")
+			(alternate "PA4")
 		)
 		(pin "9"
 			(uuid "a87fac06-62e6-4f18-a215-0ac254edcd60")

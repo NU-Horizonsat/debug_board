@@ -2300,6 +2300,18 @@
 		)
 		(uuid "a5734db9-5b7d-4c01-ae56-c5835dcd176a")
 	)
+	(hierarchical_label "DP1"
+		(shape bidirectional)
+		(at 93.98 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "112a304a-37d6-4d70-8627-7cda6dae2267")
+	)
 	(hierarchical_label "DM2"
 		(shape bidirectional)
 		(at 93.98 90.17 0)
@@ -2310,9 +2322,21 @@
 			)
 			(justify left)
 		)
-		(uuid "0b985b3d-f333-4ebd-893c-e8ad6f579b54")
+		(uuid "27f39a92-266a-472b-a018-31d70688d3cb")
 	)
-	(hierarchical_label "DP1"
+	(hierarchical_label "DP3"
+		(shape bidirectional)
+		(at 93.98 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "624da9f8-359c-4b48-b1ec-ded8886845ef")
+	)
+	(hierarchical_label "DP4"
 		(shape bidirectional)
 		(at 93.98 80.01 0)
 		(fields_autoplaced yes)
@@ -2322,43 +2346,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0d717935-077f-4d45-8cfc-bb1a9c6525ef")
-	)
-	(hierarchical_label "DP3"
-		(shape bidirectional)
-		(at 93.98 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e1f3fd9-2fe0-4ce6-9060-d64972d9d5d1")
-	)
-	(hierarchical_label "DM4"
-		(shape bidirectional)
-		(at 93.98 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3293b13e-d1c4-4ffb-831f-044b9d56211c")
-	)
-	(hierarchical_label "DM1"
-		(shape bidirectional)
-		(at 93.98 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58c4462c-1109-47db-b793-26ffbcdb9d65")
+		(uuid "73342d7d-1c5b-4610-9db8-43ca81e73cbc")
 	)
 	(hierarchical_label "DP2"
 		(shape bidirectional)
@@ -2370,9 +2358,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5b19be9b-9615-4ef0-b469-74674aa7f362")
+		(uuid "7aec3eef-d10e-4f0a-8dbc-7ef737006520")
 	)
-	(hierarchical_label "DM3"
+	(hierarchical_label "DM1"
 		(shape bidirectional)
 		(at 93.98 102.87 0)
 		(fields_autoplaced yes)
@@ -2382,7 +2370,7 @@
 			)
 			(justify left)
 		)
-		(uuid "816cf351-0a57-410d-a8d3-d7ea2b947415")
+		(uuid "845032c9-d979-4a9d-b495-a3a3ec89881d")
 	)
 	(hierarchical_label "DN_H"
 		(shape input)
@@ -2408,18 +2396,6 @@
 		)
 		(uuid "9bde7531-b82e-42eb-afdb-dd4ae24868c3")
 	)
-	(hierarchical_label "DP4"
-		(shape bidirectional)
-		(at 93.98 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7008175-c758-4708-9587-59416be9193a")
-	)
 	(hierarchical_label "DP_H"
 		(shape input)
 		(at 38.1 85.09 180)
@@ -2431,6 +2407,30 @@
 			(justify right)
 		)
 		(uuid "e0596035-eb94-4771-9720-066919ee4948")
+	)
+	(hierarchical_label "DM3"
+		(shape bidirectional)
+		(at 93.98 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7c286f9-e224-4184-9823-31e74d4c81f5")
+	)
+	(hierarchical_label "DM4"
+		(shape bidirectional)
+		(at 93.98 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5a0b7f2-f36a-4b49-8f93-71db5ff2e476")
 	)
 	(symbol
 		(lib_id "Interface_USB:USB2514B_Bi")
